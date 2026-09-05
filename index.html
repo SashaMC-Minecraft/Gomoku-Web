@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五子棋 Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>五子棋</h1>
+
+      <div class="controls">
+        <button onclick="startGame('pvp')">双人五子棋</button>
+        <button onclick="startGame('ai')">智能五子棋</button>
+        <button onclick="resetBoard()">重置棋盘</button>
+      </div>
+
+      <div id="info">请选择模式开始游戏</div>
+
+      <canvas id="board"></canvas>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
+		
