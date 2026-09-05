@@ -1,2 +1,5 @@
-# Gomoku-Web
-A web-based Gomoku game
+#五子棋游戏
+食用方法：
+1.克隆仓库
+2.复制index路径
+3.在浏览器中输入file://<你的路径>
